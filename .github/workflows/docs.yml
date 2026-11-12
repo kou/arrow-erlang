@@ -100,7 +100,7 @@ jobs:
     if: >-
       (github.event_name == 'pull_request' ||
        github.event_name == 'workflow_dispatch') &&
-       github.repository != 'apache/arrow-erlang'
+       github.repository != 'kou/arrow-erlang'
     needs: build
 
     permissions:
